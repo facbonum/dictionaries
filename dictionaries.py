@@ -91,4 +91,15 @@ band = {
 }
 print(band)
 
-print(band["member1"])
+print(band["member1"]["name"])
+
+# Sets
+
+nums = {1, 2, 3, 4}
+
+nums2 = set((1, 2, 3, 4))
+
+print(nums)
+print(nums2)
+print(type(nums))
+print(len(nums))
